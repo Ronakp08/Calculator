@@ -16,33 +16,33 @@
           <td colspan="4"><div class="ans-cnt"><p id="ans">0</p></div></td>
         </tr>
         <tr>
-          <!-- <td><button value="" type="button"></button></td> -->
-          <td ><button class="clear-btn" value="c" type="reset">C</button></td>
-          <td><button class="operator" value="%" type="button">%</button></td>
+          <!-- <td><button value="" type="butto  n"></button></td> -->
+          <td ><button onclick="clearInput()"  class="clear-btn" value="c" type="reset">C</button></td>
+          <td><button  onclick="valueInput('%')" class="operator" value="%" type="button">%</button></td>
         </tr>
         <tr>
-          <td><button class="number" value="7" type="button">7</button></td>
-          <td><button class="number" value="8" type="button">8</button></td>
-          <td><button class="number" value="9" type="button">9</button></td>
-          <td><button class="operator" value="/" type="button">&#247;</button></td>
+          <td><button onclick="valueInput('7')" class="number" value="7" type="button">7</button></td>
+          <td><button onclick="valueInput('8')" class="number" value="8" type="button">8</button></td>
+          <td><button onclick="valueInput('9')" class="number" value="9" type="button">9</button></td>
+          <td><button onclick="valueInput('/')" class="operator" value="/" type="button">&#247;</button></td>
         </tr>
         <tr>
-          <td><button class="number" value="4" type="button">4</button></td>
-          <td><button class="number" value="5" type="button">5</button></td>
-          <td><button class="number" value="6" type="button">6</button></td>
-          <td><button class="operator" value="*" type="button">&#215;</button></td>
+          <td><button onclick="valueInput('4')" class="number" value="4" type="button">4</button></td>
+          <td><button onclick="valueInput('5')" class="number" value="5" type="button">5</button></td>
+          <td><button onclick="valueInput('6')" class="number" value="6" type="button">6</button></td>
+          <td><button onclick="valueInput('*')" class="operator" value="*" type="button">&#215;</button></td>
         </tr>
         <tr>
-          <td><button class="number" value="1" type="button">1</button></td>
-          <td><button class="number" value="2" type="button">2</button></td>
-          <td><button class="number" value="3" type="button">3</button></td>
-          <td><button class="operator" value="-" type="button">-</button></td>
+          <td><button onclick="valueInput('1')" class="number" value="1" type="button">1</button></td>
+          <td><button onclick="valueInput('2')" class="number" value="2" type="button">2</button></td>
+          <td><button onclick="valueInput('3')" class="number" value="3" type="button">3</button></td>
+          <td><button onclick="valueInput('-')" class="operator" value="-" type="button">-</button></td>
         </tr>
         <tr>
-          <td><button class="number" value="." type="button">.</button></td>
-          <td><button class="number" value="0" type="button">0</button></td>
-          <td><button class="equal" value="=" type="button">&#61;</button></td>
-          <td><button class="operator" value="+" type="button">&#43;</button></td>
+          <td><button onclick="valueInput('.')" class="number" value="." type="button">.</button></td>
+          <td><button onclick="valueInput('0')" class="number" value="0" type="button">0</button></td>
+          <td><button onclick="calculate()" class="equal" value="=" type="button">&#61;</button></td>
+          <td><button onclick="valueInput('+')" class="operator" value="+" type="button">&#43;</button></td>
         </tr>
       </table>
     </div>
