@@ -43,7 +43,7 @@ function calculation(expression) {
         break;
       case '/':
         if (nextInput === 0) {
-          answer.textContent = "error";
+          answer.textContent = "error"; // Handle division by zero
           return;
         }
         result /= nextInput;
